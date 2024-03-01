@@ -1,0 +1,24 @@
+{
+  "name": "My Julia Dev Environment",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  //"image": "julia:latest",
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "julialang.language-julia"
+      ],
+      "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }  
+    }
+  },
+  //"overrideCommand": false,
+  "postCreateCommand": "echo 'Container created. Welcome to your Julia development environment!'",
+  "postStartCommand": "julia"
+}
+
+
+  
