@@ -15,9 +15,9 @@
       }  
     }
   },
-  //"overrideCommand": false,
+  "forwardPorts": [8888],
   "postCreateCommand": "echo 'Container created. Welcome to your Julia development environment!'",
-  "postStartCommand": "julia"
+  "postStartCommand": "./start_jupyter.sh"
 }
 
 
