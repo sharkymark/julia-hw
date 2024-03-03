@@ -15,6 +15,14 @@
       }  
     }
   },
+  "mounts": [
+    {
+      // for training repos that I don't want in my primay repo, so mount
+      "source": "/Users/markmilligan/Documents/devanddebug/julia",
+      "target": "/workspaces/julia",
+      "type": "bind"
+    }
+  ], 
   "forwardPorts": [8888],
   "postCreateCommand": "echo 'Container created. Welcome to your Julia development environment!'",
   "postStartCommand": "./start_jupyter.sh"
