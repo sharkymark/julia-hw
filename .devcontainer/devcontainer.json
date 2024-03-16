@@ -18,7 +18,7 @@
   "mounts": [
     {
       // for training repos that I don't want in my primay repo, so mount
-      "source": "/Users/markmilligan/Documents/devanddebug/julia",
+      "source": "/Users/markmilligan/Documents/src/julia",
       "target": "/workspaces/julia",
       "type": "bind"
     }
