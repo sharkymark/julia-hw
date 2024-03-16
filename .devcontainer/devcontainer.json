@@ -18,6 +18,8 @@
   "mounts": [
     {
       // for training repos that I don't want in my primay repo, so mount
+      // clone this first in a directory called julia
+      // https://github.com/JuliaAcademy/Introduction-to-Julia
       "source": "/Users/markmilligan/Documents/src/julia",
       "target": "/workspaces/julia",
       "type": "bind"
