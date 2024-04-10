@@ -8,7 +8,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "julialang.language-julia"
+        "julialang.language-julia",
+        "GitHub.copilot"
       ],
       "settings": { 
         "terminal.integrated.shell.linux": "/bin/bash"
