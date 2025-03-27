@@ -2,7 +2,7 @@
 FROM julia:latest
 
 # get ps utility in the container
-RUN apt-get update && apt-get install -y procps curl net-tools htop ssh git
+RUN apt-get update && apt-get install -y sudo procps curl net-tools htop ssh git
 
 # ENV PROJECT_DIR /workspaces/julia-hw
 # WORKDIR $PROJECT_DIR 
